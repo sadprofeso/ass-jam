@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f3ef82d5863b94e9273c0571d0659b, type: 3}
+  m_Name: DialogueTest
+  m_EditorClassIdentifier: 
+  dialogueID: DialogueTest
+  lines:
+  - speakerName: Speaker 1
+    portrait: {fileID: 21300000, guid: 9c0a1b40626705449bfc15fe26824682, type: 3}
+    voice: {fileID: 8300000, guid: 9474ba6c12410d8448bb95a801c24159, type: 3}
+    text: Hello Speaker 2. I am Speaker 1.
+    nextLineIndex: 0
+  - speakerName: Speaker 2
+    portrait: {fileID: 21300000, guid: 05d5a2061ffebca46802ddcb10554ecc, type: 3}
+    voice: {fileID: 8300000, guid: 9474ba6c12410d8448bb95a801c24159, type: 3}
+    text: Hello Speaker 1. I am well. I am Speaker 2.
+    nextLineIndex: 1
+  - speakerName: Speaker 1
+    portrait: {fileID: 21300000, guid: 9c0a1b40626705449bfc15fe26824682, type: 3}
+    voice: {fileID: 8300000, guid: 9474ba6c12410d8448bb95a801c24159, type: 3}
+    text: 'Nice to Meet You Speaker 2! '
+    nextLineIndex: 2
+  - speakerName: Speaker 2
+    portrait: {fileID: 21300000, guid: 05d5a2061ffebca46802ddcb10554ecc, type: 3}
+    voice: {fileID: 8300000, guid: 9474ba6c12410d8448bb95a801c24159, type: 3}
+    text: 'ASS JAM '
+    nextLineIndex: -1
