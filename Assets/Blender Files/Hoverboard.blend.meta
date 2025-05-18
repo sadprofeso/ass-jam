@@ -3,7 +3,27 @@ guid: d1e6eb8ce19b458458d25a636fc9eb8d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hoverboard Body Material
+    second: {fileID: 2100000, guid: 5ffd8cfc97fcb46449cc9b33fe6a1f18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hoverboard Grip Material
+    second: {fileID: 2100000, guid: 3b85448bfc2f43b43bee52a2745d261e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hoverboard Wheel Rim Material
+    second: {fileID: 2100000, guid: f5d5cdf5c38b6254c8ed52c5122622bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hoverboard Wheel Tire Material
+    second: {fileID: 2100000, guid: ef56b22342087914babb8cf556e8b803, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

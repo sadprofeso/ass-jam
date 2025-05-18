@@ -3,7 +3,27 @@ guid: 2d7bc26b6ce0c2e47849fb2f773f8ca5
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeMaterial
+    second: {fileID: 2100000, guid: 04ae1ac9bc1e0ac4e9a63fb31ef18110, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PupilMaterial
+    second: {fileID: 2100000, guid: 4e8cceaedff3c1644a72d95fd76fb592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SkinMaterial
+    second: {fileID: 2100000, guid: daf1afbcf6c961d4fa399aa7fd9a6d59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UnderwearMaterial
+    second: {fileID: 2100000, guid: dfd4cc4612928c949a5674779e68ed3f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

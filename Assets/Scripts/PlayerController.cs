@@ -10,8 +10,6 @@ public class PlayerController : MonoBehaviour
     
     [Header("Ground Movement")] public float moveSpeed = 100f;
     public float groundDrag = 5f;
-    
-    public LayerMask whatIsGround;
 
     [Header("Camera")]
     private Transform cameraTransform;
@@ -22,7 +20,9 @@ public class PlayerController : MonoBehaviour
     Vector3 moveDirection;
 
     [SerializeField] Rigidbody rb;
-    
+
+    [SerializeField] private GameObject leftWheel;
+    [SerializeField] private GameObject rightWheel;
 
     private void Start()
     {
@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
     {
         MyInput();
         SpeedControl();
-
+        RotateWheels();
         rb.linearDamping = groundDrag;
             
         if (verticalInput < 0.1f && horizontalInput < 0.1f)
@@ -59,6 +59,16 @@ public class PlayerController : MonoBehaviour
         
     }
 
+    private void RotateWheels()
+    {
+        if (!Mathf.Approximately(verticalInput, 0f) || !Mathf.Approximately(horizontalInput, 0f))
+        {
+            float rotationSpeed = moveSpeed * Time.deltaTime * 50f;
+            leftWheel.transform.Rotate(new Vector3(rotationSpeed, 0f, 0f));
+            rightWheel.transform.Rotate(new Vector3(rotationSpeed, 0f, 0f));
+        }
+    }
+    
     private void FixedUpdate()
     {
         MovePlayer();
