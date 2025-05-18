@@ -26,8 +26,8 @@ public class PlayerController : MonoBehaviour
     public float baseGravity = -19.62f;
 
     [Header("Keybinds")] public KeyCode jumpKey = KeyCode.Space;
-    public KeyCode groundPoundKey = KeyCode.LeftShift;
-
+    public KeyCode groundPoundKey = KeyCode.E;
+    public KeyCode dashKey = KeyCode.LeftShift;
 
     private bool readyToJump = true;
     private bool readyToGroundPound = true;
@@ -167,6 +167,12 @@ public class PlayerController : MonoBehaviour
             Invoke(nameof(ResetJump), jumpCooldown);
         }
 
+        if (Input.GetKeyUp(dashKey))
+        {
+            StartCoroutine(DashRoutine());
+        }
+
+            
         if (Input.GetKeyUp(groundPoundKey))
         {
             canGroundPound = true;
@@ -180,6 +186,21 @@ public class PlayerController : MonoBehaviour
             GroundPound();
             Invoke(nameof(ResetGroundPound), groundPoundCooldown);
         }
+    }
+
+    private float dashTimer = 0f;
+    private IEnumerator DashRoutine()
+    {
+        while (dashTimer <= 1f)
+        {
+            dashTimer += Time.deltaTime;
+            rb.linearVelocity = transform.forward * 100f;
+
+            yield return null;
+        }
+        rb.linearVelocity = Vector3.zero;
+
+        dashTimer = 0f;
     }
 
 
