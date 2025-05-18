@@ -318,7 +318,7 @@ MonoBehaviour:
   EncryptionKey: 
   ImportType: 0
   TargetAssetPath: FMODBanks
-  TargetBankFolder: D:\Desktop\FMOD projects\Ass Jam FMOD\Build\Desktop
+  TargetBankFolder: D:\Desktop\FMOD projects\Ass Jam FMOD\Build
   EventLinkage: 0
   LoggingLevel: 2
   SpeakerModeSettings: []
