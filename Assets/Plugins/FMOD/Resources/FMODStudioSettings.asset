@@ -305,10 +305,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   switchSettingsMigration: 1
-  HasSourceProject: 1
-  HasPlatforms: 1
+  HasSourceProject: 0
+  HasPlatforms: 0
   sourceProjectPath: ../../../Desktop/FMOD projects/Ass Jam FMOD/Ass Jam FMOD.fspro
-  sourceBankPath: ../../../Desktop/FMOD projects/Ass Jam FMOD/Build
+  sourceBankPath: FMOD banks/Desktop
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -318,7 +318,7 @@ MonoBehaviour:
   EncryptionKey: 
   ImportType: 0
   TargetAssetPath: FMODBanks
-  TargetBankFolder: D:\Desktop\FMOD projects\Ass Jam FMOD\Build
+  TargetBankFolder: 
   EventLinkage: 0
   LoggingLevel: 2
   SpeakerModeSettings: []
@@ -330,7 +330,7 @@ MonoBehaviour:
   RealChannelSettings: []
   Plugins: []
   MasterBanks:
-  - Master
+  - Desktop/Master
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
