@@ -67,10 +67,10 @@ MonoBehaviour:
   Path: ../../../Desktop/FMOD projects/Ass Jam FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638830990384665198
+  lastModified: 638831315350388475
   FileSizes:
   - Name: Desktop
-    Value: 62208
+    Value: 971360
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -89,13 +89,41 @@ MonoBehaviour:
   - {fileID: -4593577557130453683}
   EditorEvents:
   - {fileID: -8066932789410807381}
+  - {fileID: 174735225501797455}
   EditorParameters: []
   MasterBanks:
   - {fileID: -4593577557130453683}
   StringsBanks:
   - {fileID: 1992290471794754996}
-  cacheTime: 638830990384685137
+  cacheTime: 638831315350408420
   cacheVersion: 131624
+--- !u!114 &174735225501797455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music
+  Guid:
+    Data1: 657386858
+    Data2: 1236977408
+    Data3: -176877659
+    Data4: 1488796112
+  Banks:
+  - {fileID: -4593577557130453683}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70985
 --- !u!114 &1992290471794754996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,8 +139,8 @@ MonoBehaviour:
   Path: ../../../Desktop/FMOD projects/Ass Jam FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638830990384685137
+  lastModified: 638831315350408420
   FileSizes:
   - Name: Desktop
-    Value: 808
+    Value: 856
   Exists: 1
