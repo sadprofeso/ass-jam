@@ -3,7 +3,17 @@ guid: cca2b88617534634b890ee65d366310e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Colosseum Material
+    second: {fileID: 2100000, guid: fca1a1b5bd0eaf54894fc453e219c223, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Colosseum Sand Material
+    second: {fileID: 2100000, guid: 030bd90b2a020a34d97cd6c1a700f709, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
