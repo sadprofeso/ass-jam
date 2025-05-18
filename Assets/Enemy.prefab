@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8922266987511192584
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 734206613694568919, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 734206613694568919, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2433758
+      objectReference: {fileID: 0}
+    - target: {fileID: 734206613694568919, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 33.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 734206613694568919, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 734206613694568919, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 734206613694568919, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 734206613694568919, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 734206613694568919, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 734206613694568919, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 734206613694568919, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7390229713714345824, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+      propertyPath: m_Name
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7390229713714345824, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7390229713714345824, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4187095663987887461}
+    - targetCorrespondingSourceObject: {fileID: 7390229713714345824, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2942048917797012365}
+  m_SourcePrefab: {fileID: 100100000, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+--- !u!1 &2115878501733526376 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7390229713714345824, guid: 16561a7924a7a274dbc9076639f135f1, type: 3}
+  m_PrefabInstance: {fileID: 8922266987511192584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &4187095663987887461
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115878501733526376}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 3.4
+  m_BaseOffset: 2
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &2942048917797012365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115878501733526376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3c0d050b381da84b861b479592a0769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 5
+  damage: 1
+  attackCooldown: 1.5
+  speed: 30
+  player: {fileID: 0}
+  enemyFrozenMaterial: {fileID: 0}
+  bloodParticles: {fileID: 0}
+  animator: {fileID: 0}
+  enemyHitSound: {fileID: 0}

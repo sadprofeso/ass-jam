@@ -40,8 +40,7 @@ public class PlayerController : MonoBehaviour
         MyInput();
         SpeedControl();
         RotateWheels();
-        rb.linearDamping = groundDrag;
-            
+        rb.linearDamping = groundDrag; ;
         if (verticalInput < 0.1f && horizontalInput < 0.1f)
         {
             rb.linearDamping = 10;
