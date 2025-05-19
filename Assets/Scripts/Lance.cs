@@ -5,7 +5,6 @@ public class Lance : MonoBehaviour
 {
     private void OnCollisionEnter(Collision other)
     {
-
     }
 
     private void OnTriggerEnter(Collider other)
@@ -13,7 +12,11 @@ public class Lance : MonoBehaviour
         Debug.Log("lance hit " + other.gameObject.name);
         if (other.gameObject.CompareTag("Cheek"))
         {
-            other.gameObject.GetComponent<Cheek>().Pop();
+            Cheek cheek = other.gameObject.GetComponent<Cheek>();
+            if (cheek)
+            {
+                cheek.Pop();
+            }
         }
     }
 }

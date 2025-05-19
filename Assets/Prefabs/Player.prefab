@@ -189,6 +189,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f55750f28dba32c419a3f8cbf0db2158, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 2
+  rb: {fileID: 8737151544693394060}
   moveSpeed: 30
   groundDrag: 5
   jumpForce: 30
@@ -206,7 +208,6 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 0
-  rb: {fileID: 8737151544693394060}
   onGroundPound:
     m_PersistentCalls:
       m_Calls: []
@@ -367,10 +368,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.64
-  m_Height: 5.1685195
+  m_Radius: 0.31
+  m_Height: 1.6805344
   m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 1.0157402}
+  m_Center: {x: 0, y: 0, z: -0.7282524}
 --- !u!114 &7107148692857942777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,73 +384,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 850ebb84115bdd74a90d7b6940a3ae1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &55874514210472917
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2255774859404757868}
-    m_Modifications:
-    - target: {fileID: 3240808541433128678, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_Name
-      value: Ass Pop Particles
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
---- !u!4 &7728754986983890745 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-  m_PrefabInstance: {fileID: 55874514210472917}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &8349489135140957365 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 8293899549983649632, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-  m_PrefabInstance: {fileID: 55874514210472917}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &977494481529728571
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -610,10 +544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 6666633723588151429, guid: 88ab55c47bac78b4aa2c39d2c701ce44, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2502471831505158867}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 993406976256065582, guid: 88ab55c47bac78b4aa2c39d2c701ce44, type: 3}
       insertIndex: -1
@@ -660,7 +591,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 107c2e512c337a140a884e5ea5496b3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popParticles: {fileID: 4190534893575483743}
+  character: {fileID: 7918683077244418918}
+  popParticles: {fileID: 8293899549983649632, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
 --- !u!4 &6033686208183913018 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6666633723588151429, guid: 88ab55c47bac78b4aa2c39d2c701ce44, type: 3}
@@ -877,10 +809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 6666633723588151429, guid: 88ab55c47bac78b4aa2c39d2c701ce44, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7728754986983890745}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 993406976256065582, guid: 88ab55c47bac78b4aa2c39d2c701ce44, type: 3}
       insertIndex: -1
@@ -932,78 +861,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 107c2e512c337a140a884e5ea5496b3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popParticles: {fileID: 8349489135140957365}
---- !u!1001 &5277687673828286015
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 6033686208183913018}
-    m_Modifications:
-    - target: {fileID: 3240808541433128678, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_Name
-      value: Ass Pop Particles
-      objectReference: {fileID: 0}
-    - target: {fileID: 6394178777516788931, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 3d24b58b0e94ca44f9ffa6534940d717, type: 2}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
---- !u!4 &2502471831505158867 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7747471351014186220, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-  m_PrefabInstance: {fileID: 5277687673828286015}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &4190534893575483743 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 8293899549983649632, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
-  m_PrefabInstance: {fileID: 5277687673828286015}
-  m_PrefabAsset: {fileID: 0}
+  character: {fileID: 7918683077244418918}
+  popParticles: {fileID: 8293899549983649632, guid: 12ab3b1a2744f2244b062e3d71e5036b, type: 3}
 --- !u!1001 &7179346413641917121
 PrefabInstance:
   m_ObjectHideFlags: 0

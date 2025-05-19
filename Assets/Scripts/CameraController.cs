@@ -30,12 +30,6 @@ public class CameraController : MonoBehaviour
             Quaternion.LookRotation((targetLookat.position - transform.position).normalized, Vector3.up);
         
     }
-
-    private void OnValidate()
-    {
-        Simulate();
-    }
-
     private void Update()
     {
         offset += new Vector2(Input.GetAxis("Mouse X"), -Input.GetAxis("Mouse Y")) * 2f;
