@@ -25,11 +25,11 @@ public class EnemyAI : MonoBehaviour
 
     private void Update()
     {
-    
         Vector3 lookAtPosition = player.position;
         lookAtPosition.y = transform.position.y;
-        transform.LookAt(lookAtPosition);
-
+        SmoothLookAt(lookAtPosition);
+ 
+        
         agent.SetDestination(player.position);
     }
 
@@ -37,9 +37,19 @@ public class EnemyAI : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            rb.AddExplosionForce(10000f, transform.position, 100f);
+            rb.AddForce(Vector3.up * 25f);
+            rb.AddExplosionForce(5000f, transform.position-Vector3.up, 1000f);
         }
     }
 
 
+    private void SmoothLookAt(Vector3 target)
+    {
+        Vector3 direction = target - transform.position;
+        if (direction != Vector3.zero)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime / 10f);
+        }
+    }
 }

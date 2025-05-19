@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             Debug.Log("explode");
-            rb.AddForce(Vector3.up * 50f);
+            rb.AddForce(Vector3.up * 25f);
             rb.AddExplosionForce(5000f, transform.position-Vector3.up, 1000f);
         }
     }
