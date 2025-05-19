@@ -5,14 +5,14 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyAI : MonoBehaviour
+public class EnemyAI : ACharacter
 {
+    
     [Header("Movement Settings")]
     public float speed = 3f;
     public Transform player;
     private NavMeshAgent agent;
     private bool canMove = true;
-    [SerializeField] private Rigidbody rb;
 
     private void Start()
     {
@@ -37,8 +37,7 @@ public class EnemyAI : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            rb.AddForce(Vector3.up * 25f);
-            rb.AddExplosionForce(5000f, transform.position-Vector3.up, 1000f);
+            Collide();
         }
     }
 
@@ -49,7 +48,7 @@ public class EnemyAI : MonoBehaviour
         if (direction != Vector3.zero)
         {
             Quaternion targetRotation = Quaternion.LookRotation(direction);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime / 10f);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 10f);
         }
     }
 }
