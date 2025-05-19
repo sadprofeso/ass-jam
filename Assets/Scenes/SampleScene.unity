@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: db0c65e9a850bf2498df7870be821fbc, type: 2}
-  TEST_DIALOGUE_TRIGGER: 1
+  TEST_DIALOGUE_TRIGGER: 0
 --- !u!4 &312847293
 Transform:
   m_ObjectHideFlags: 0
@@ -559,6 +559,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 752775658}
+  - component: {fileID: 752775657}
+  - component: {fileID: 752775656}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -566,6 +568,55 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &752775656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752775655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 657386858
+      Data2: 1236977408
+      Data3: -176877659
+      Data4: 1488796112
+    Path: event:/Music
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &752775657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752775655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 0
+  UnloadEvent: 0
+  Banks:
+  - Desktop/Master
+  CollisionTag: 
+  PreloadSamples: 0
 --- !u!4 &752775658
 Transform:
   m_ObjectHideFlags: 0
@@ -782,7 +833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: a9b5144744880004da43a334cbf082c6, type: 2}
-  TEST_DIALOGUE_TRIGGER: 1
+  TEST_DIALOGUE_TRIGGER: 0
 --- !u!4 &1000640931
 Transform:
   m_ObjectHideFlags: 0
@@ -1179,7 +1230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: 51ab3dec2cc4bf045b300f110aef4732, type: 2}
-  TEST_DIALOGUE_TRIGGER: 1
+  TEST_DIALOGUE_TRIGGER: 0
 --- !u!4 &1506478392
 Transform:
   m_ObjectHideFlags: 0
