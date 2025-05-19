@@ -16,5 +16,9 @@ public class ACharacter : MonoBehaviour
         rb.AddForce(Vector3.up * 25f);
         rb.AddExplosionForce(1000f, transform.position-Vector3.up, 1000f);
     }
-    
+
+    public bool IsAlive()
+    {
+        return health >= 0;
+    }
 }

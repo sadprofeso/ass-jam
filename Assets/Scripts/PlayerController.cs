@@ -35,7 +35,7 @@ public class PlayerController : ACharacter
     public LayerMask whatIsGround;
     private bool grounded;
 
-    [Header("Camera")]
+    [Header("Camera")] [SerializeField] private CameraController cameraController;
     private Transform cameraTransform;
     
     float horizontalInput;
@@ -46,7 +46,13 @@ public class PlayerController : ACharacter
     [SerializeField] private UnityEvent onGroundPound;
 
     private bool pressedGroundPoundKey = false;
-    
+
+    public static PlayerController Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void Start()
     {
@@ -84,8 +90,7 @@ public class PlayerController : ACharacter
         //Debug.Log("Velocity: " + rb.velocity.magnitude);
         // ground check
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.5f, whatIsGround);
-
-        Debug.Log("Player is grounded: " + grounded);
+        
         MyInput();
         SpeedControl();
 
@@ -120,9 +125,18 @@ public class PlayerController : ACharacter
 
     private void FixedUpdate()
     {
-        MovePlayer();
-        AddGravity();
+        if (!WinLoseScreen.Instance.thereIsAWinner)
+        {
+            MovePlayer();
+            AddGravity();
+            cameraController.Simulate();
+        }
         
+    }
+
+    private void LateUpdate()
+    {
+        cameraController.Simulate();
     }
 
     private void AddGravity()

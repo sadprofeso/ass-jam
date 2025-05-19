@@ -23,12 +23,14 @@ public class CameraController : MonoBehaviour
 
     public void Simulate()
     {
-        transform.rotation = Quaternion.AngleAxis(offset.x, Vector3.up) * Quaternion.AngleAxis(offset.y, Vector3.right);
-        transform.position = Vector3.SmoothDamp(transform.position,
-            targetLookat.position - transform.forward * distance, ref vel, Time.deltaTime);
-        transform.rotation =
-            Quaternion.LookRotation((targetLookat.position - transform.position).normalized, Vector3.up);
-        
+        if (PlayerController.Instance.IsAlive())
+        {
+            transform.rotation = Quaternion.AngleAxis(offset.x, Vector3.up) * Quaternion.AngleAxis(offset.y, Vector3.right);
+            transform.position = Vector3.SmoothDamp(transform.position,
+                targetLookat.position - transform.forward * distance, ref vel, Time.deltaTime);
+            transform.rotation =
+                Quaternion.LookRotation((targetLookat.position - transform.position).normalized, Vector3.up);
+        }
     }
     private void Update()
     {
@@ -36,14 +38,5 @@ public class CameraController : MonoBehaviour
         distance -= Input.GetAxis("Mouse ScrollWheel") * 5f;
         distance = Mathf.Clamp(distance, 2f, initialDistance);
         distance = Mathf.Max(distance, 1f);
-    }
-    public void LateUpdate()
-    {
-        Simulate();
-    }
-    
-    public void FixedUpdate()
-    {
-        Simulate();
     }
 }

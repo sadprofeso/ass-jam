@@ -25,11 +25,14 @@ public class EnemyAI : ACharacter
 
     private void Update()
     {
-        agent.speed = ACharacter.canMove ? speed : 0;
-        Vector3 lookAtPosition = player.position;
-        lookAtPosition.y = transform.position.y;
-        SmoothLookAt(lookAtPosition);
-        agent.SetDestination(player.position);
+        if (player && !WinLoseScreen.Instance.thereIsAWinner)
+        {
+            agent.speed = ACharacter.canMove ? speed : 0;
+            Vector3 lookAtPosition = player.position;
+            lookAtPosition.y = transform.position.y;
+            SmoothLookAt(lookAtPosition);
+            agent.SetDestination(player.position);
+        }
     }
 
     private void OnCollisionEnter(Collision other)

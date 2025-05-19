@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 // @author Jake DeRoma, Discord: jaker333
@@ -32,7 +33,7 @@ public class DialogueUIHandler : MonoBehaviour
         {
             instance = this;
         }
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
     }
 
     void Start()
@@ -100,6 +101,8 @@ public class DialogueUIHandler : MonoBehaviour
             yield return new WaitForSeconds(characterDelay);
         }
 
+
+        
         canAdvanceLine = true;
     }
 

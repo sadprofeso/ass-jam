@@ -10,7 +10,11 @@ public class DialogueController : MonoBehaviour
     private DialogueData currentDialogueData;
     private int currentLinesIndex = -1;
 
+
     [SerializeField] public GameObject trigger;
+
+    [SerializeField] private NextScene nextScene;
+
 
     void Awake()
     {
@@ -20,6 +24,7 @@ public class DialogueController : MonoBehaviour
             instance = this;
         }
         DontDestroyOnLoad(gameObject);
+        Time.timeScale = 1f;
     }
 
     void Update()
@@ -38,7 +43,14 @@ public class DialogueController : MonoBehaviour
         currentDialogueData = dialogueData;
         currentLinesIndex = 0;
         DialogueUIHandler.instance.DisplayLine(dialogueData.lines[currentLinesIndex]); // always index 0 at start
-        FMODUnity.RuntimeManager.PlayOneShot(trigger.GetComponent<DialogueTrigger>().eventName); 
+        if (trigger.GetComponent<DialogueTrigger>())
+        {
+            FMODUnity.RuntimeManager.PlayOneShot(trigger.GetComponent<DialogueTrigger>().eventName); 
+        }
+        else
+        {
+            Debug.LogWarning("No Dialogue Trigger Found");
+        }
     }
 
     public void AdvanceCurrentDialogue()
@@ -71,5 +83,6 @@ public class DialogueController : MonoBehaviour
         currentLinesIndex = -1;
 
         DialogueUIHandler.instance.ResetUI();
+        nextScene.GoToNextScene();
     }
 }

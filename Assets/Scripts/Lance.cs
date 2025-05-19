@@ -21,10 +21,20 @@ public class Lance : MonoBehaviour
                 break;
         
             case "Player":
+                if (other.gameObject.GetComponent<ACharacter>().health <= 0)
+                {
+                    WinLoseScreen.Instance.Lose();
+                    Instantiate(character.deathParticles, other.gameObject.transform.position, Quaternion.identity);
+                    Destroy(other.gameObject);
+                    
+                }
+
+                break;                
             case "Enemy":
 
                 if (other.gameObject.GetComponent<ACharacter>().health <= 0)
                 {
+                    WinLoseScreen.Instance.Win();
                     Instantiate(character.deathParticles, other.gameObject.transform.position, Quaternion.identity);
                     Destroy(other.gameObject);
                 }
