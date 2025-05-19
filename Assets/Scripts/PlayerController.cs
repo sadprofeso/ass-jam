@@ -6,10 +6,6 @@ using UnityEngine.Events;
 
 public class PlayerController : ACharacter
 {
-
-
-    
-    
     [Header("Ground Movement")] public float moveSpeed = 100f;
     public float groundDrag = 5f;
 
@@ -204,6 +200,10 @@ public class PlayerController : ACharacter
 
     private void MovePlayer()
     {
+        if (!canMove)
+        {
+            return;
+        }
         // calculate movement direction
         Vector3 camForward = cameraTransform.forward;
         Vector3 camRight = cameraTransform.right;

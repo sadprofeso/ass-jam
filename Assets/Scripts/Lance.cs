@@ -3,20 +3,33 @@ using UnityEngine;
 
 public class Lance : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision other)
-    {
-    }
-
+    [SerializeField] private ACharacter character;
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("lance hit " + other.gameObject.name);
-        if (other.gameObject.CompareTag("Cheek"))
+
+        switch (other.gameObject.tag)
         {
-            Cheek cheek = other.gameObject.GetComponent<Cheek>();
-            if (cheek)
-            {
-                cheek.Pop();
-            }
+            case "Cheek":
+                Cheek cheek = other.gameObject.GetComponent<Cheek>();
+                if (cheek)
+                {
+                    cheek.Pop();
+                    character.Collide();
+                }
+
+                break;
+        
+            case "Player":
+            case "Enemy":
+
+                if (other.gameObject.GetComponent<ACharacter>().health <= 0)
+                {
+                    Instantiate(character.deathParticles, other.gameObject.transform.position, Quaternion.identity);
+                    Destroy(other.gameObject);
+                }
+                break;
         }
+        
     }
 }
