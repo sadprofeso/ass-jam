@@ -636,7 +636,7 @@ MonoBehaviour:
   - {fileID: 5648621720397445584}
   StringsBanks:
   - {fileID: 4378173754669136819}
-  cacheTime: 638832036506828435
+  cacheTime: 638832049219151772
   cacheVersion: 131624
 --- !u!114 &219457344593857066
 MonoBehaviour:
@@ -1008,12 +1008,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Name: bank:/Desktop/Master.strings.bank
   m_EditorClassIdentifier: 
   Path: Assets/StreamingAssets/Desktop/Master.strings.bank
-  Name: Master.strings
+  Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638832036506828435
+  lastModified: 638832049219151772
   FileSizes:
   - Name: 
     Value: 2410
@@ -1115,7 +1115,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638832036506798603
+  lastModified: 638832049218842303
   FileSizes: []
   Exists: 1
 --- !u!114 &6896145061566330370

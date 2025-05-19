@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f3ef82d5863b94e9273c0571d0659b, type: 3}
+  m_Name: Scene5
+  m_EditorClassIdentifier: 
+  dialogueID: Scene5_ThirdWin
+  lines:
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: "It is over, Arsebald. You\u2019ve been completely flattened. I remain
+      as the only jester standing."
+    nextLineIndex: 0
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 1f851b0a3c51c724bb1ebc0c15ea685b, type: 3}
+    voice: {fileID: 0}
+    text: " I\u2026 This cannot be! Defeated by an assless PEASANT like you?! \r"
+    nextLineIndex: 1
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: "King Rear! I have prevailed in your joust, and am ready to be your fool.\r"
+    nextLineIndex: 2
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 1f851b0a3c51c724bb1ebc0c15ea685b, type: 3}
+    voice: {fileID: 0}
+    text: "Heh, you truly are a fool! Set thine eyes on your\u2026lacking posterior!\r"
+    nextLineIndex: 3
+  - speakerName: Lady Buttrice
+    portrait: {fileID: 21300000, guid: 18c2569b4bb9871438bef78db894860b, type: 3}
+    voice: {fileID: 0}
+    text: " *gasps*\r"
+    nextLineIndex: 4
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 1f851b0a3c51c724bb1ebc0c15ea685b, type: 3}
+    voice: {fileID: 0}
+    text: "Flat, assless, just like your jester of a father.\r"
+    nextLineIndex: 5
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: "This can\u2019t be! I am struck down! The very thing I coveted for so
+      long, plucked away from my grasp, my father\u2019s bones rotting to nothing
+      beneath the earth\u2026 forgotten, no sons to carry his legacy\u2026no sons
+      to carry my name.\r\r"
+    nextLineIndex: 6
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 1f851b0a3c51c724bb1ebc0c15ea685b, type: 3}
+    voice: {fileID: 0}
+    text: "You, *cough*, did your father proud. It just seems us both were on the
+      same playing field\u2026 As much as I despised your fake, now completely destroyed
+      ass, it still held something of\u2026 beauty\u2026 for me. You fought long,
+      and round, and jiggly, and voluptuous, and hard\u2026 And you won."
+    nextLineIndex: 7
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: "\u2018Twas an honor to fight beside you, Arsebald, and behind you."
+    nextLineIndex: 8
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 1f851b0a3c51c724bb1ebc0c15ea685b, type: 3}
+    voice: {fileID: 0}
+    text: "Fair Theseass\u2026 For the minute I have left to live, I will never forget
+      clapping ass with you\u2026 "
+    nextLineIndex: 9
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: And I as well, my friend.
+    nextLineIndex: 10
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 1f851b0a3c51c724bb1ebc0c15ea685b, type: 3}
+    voice: {fileID: 0}
+    text: "Friend\u2026how foolish of us not to see the bond between ourselves."
+    nextLineIndex: 11
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: How foolish indeed.
+    nextLineIndex: -1

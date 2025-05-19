@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f3ef82d5863b94e9273c0571d0659b, type: 3}
+  m_Name: Scene8
+  m_EditorClassIdentifier: 
+  dialogueID: Scene8_SecondLoss
+  lines:
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: de8c789a29046a04faaf5be1887685be, type: 3}
+    voice: {fileID: 0}
+    text: "GAH! How have I let myself be beaten again by this cheap, flimsy \u201Cnobleman\u201D?
+      To let this fool win would be a fate worse than death itself."
+    nextLineIndex: 0
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 45bd5df65ea80f7448d944dead6393ab, type: 3}
+    voice: {fileID: 0}
+    text: "Anyone with a brain in their head and cheeks on their ass knows that this
+      is EXACTLY how it is supposed to go!! As a matter of fact, I haven\u2019t even
+      broken a sweat! This is MENIAL! Poor Theseass, your father watches down upon
+      you."
+    nextLineIndex: 1
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: de8c789a29046a04faaf5be1887685be, type: 3}
+    voice: {fileID: 0}
+    text: "Don\u2019t you speak of my father. I shall be triumphant this day, just
+      you wait. What do you fight for, Arsebald, but for your small ego and even
+      smaller ass? "
+    nextLineIndex: 2
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 45bd5df65ea80f7448d944dead6393ab, type: 3}
+    voice: {fileID: 0}
+    text: " Ah, just the basics\u2026 Money, fame, power, bringing honor to my father,
+      who still draws breath.\r"
+    nextLineIndex: 3
+  - speakerName: Lady Buttrice
+    portrait: {fileID: 21300000, guid: 18c2569b4bb9871438bef78db894860b, type: 3}
+    voice: {fileID: 0}
+    text: "Hahaha! End him, Arsebald! You are clearly the better fool!\r"
+    nextLineIndex: 4
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 45bd5df65ea80f7448d944dead6393ab, type: 3}
+    voice: {fileID: 0}
+    text: "The maidens distract us. Let us continue.\r"
+    nextLineIndex: 5
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: de8c789a29046a04faaf5be1887685be, type: 3}
+    voice: {fileID: 0}
+    text: "Your father draws breath still? And yet, I see neither hide nor hair of
+      him.\r"
+    nextLineIndex: 6
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 45bd5df65ea80f7448d944dead6393ab, type: 3}
+    voice: {fileID: 0}
+    text: "A\u2026A hunting party keeps him away! Enough of this meaningless drivel!
+      Drivel on mine ass instead!\r"
+    nextLineIndex: -1

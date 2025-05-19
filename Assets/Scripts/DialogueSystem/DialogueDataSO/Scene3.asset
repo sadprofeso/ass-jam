@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f3ef82d5863b94e9273c0571d0659b, type: 3}
+  m_Name: Scene3
+  m_EditorClassIdentifier: 
+  dialogueID: Scene3_AfterFirstWin
+  lines:
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: "As I said, Arsebald. You shall be the King\u2019s favored jester no longer.
+      Your reign of ass ripping ends today."
+    nextLineIndex: 0
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: ae325b53aa7469941b1379052564db84, type: 3}
+    voice: {fileID: 0}
+    text: " I admit, you certainly have some fine musculature. But it\u2019s no matter!
+      I have plenty of ass left to spare!"
+    nextLineIndex: 1
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: "Oh, but my dear Arsebald, I have only just begun. By the time I\u2019m
+      done with you, there will be no cheeks left to fill. \r"
+    nextLineIndex: 2
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: ae325b53aa7469941b1379052564db84, type: 3}
+    voice: {fileID: 0}
+    text: "Hmph, talk is cheap, fine Theseass. But your victory was a fluke, and
+      you shall collapse under my grasp, just like your father before you.\r"
+    nextLineIndex: 3
+  - speakerName: Lady Buttrice
+    portrait: {fileID: 21300000, guid: 18c2569b4bb9871438bef78db894860b, type: 3}
+    voice: {fileID: 0}
+    text: "Here, here! May the finest jester win!\r"
+    nextLineIndex: 4
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: "Best not get distracted by the maidens. Set your sights on me if you hope
+      to survive.\r"
+    nextLineIndex: 5
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: ae325b53aa7469941b1379052564db84, type: 3}
+    voice: {fileID: 0}
+    text: "Oh, only one thought crosses my mind. POPPING THINE ASS!\r"
+    nextLineIndex: -1

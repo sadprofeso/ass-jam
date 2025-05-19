@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f3ef82d5863b94e9273c0571d0659b, type: 3}
+  m_Name: Scene4
+  m_EditorClassIdentifier: 
+  dialogueID: Scene4_SecondWin
+  lines:
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: ae325b53aa7469941b1379052564db84, type: 3}
+    voice: {fileID: 0}
+    text: "Ugh! By the King\u2019s- You most certainly didn\u2019t inherit that ass
+      from your father!"
+    nextLineIndex: 0
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: I have been training. 1000 squats each sunrise, so that I might swiftly
+      crush you under the weight of my vengeful posterior.
+    nextLineIndex: 1
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: ae325b53aa7469941b1379052564db84, type: 3}
+    voice: {fileID: 0}
+    text: Rubbish! More like 1000 pounds of cotton in your asscheeks! I, with my
+      all-natural rump, will NOT be defiled by your BAVARIAN BUTT LIFT!
+    nextLineIndex: 2
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: Then cease your yapping and begin clapping.
+    nextLineIndex: -1
