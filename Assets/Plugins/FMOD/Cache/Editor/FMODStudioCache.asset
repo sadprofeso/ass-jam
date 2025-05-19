@@ -1,5 +1,56 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8903136929239018999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Battle Music/Death
+  m_EditorClassIdentifier: 
+  Name: Death
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1071065621
+    data2: 2659812181
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8432891340355275506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Battle Lose verb
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Battle Lose verb
+  Guid:
+    Data1: 1243488256
+    Data2: 1233700051
+    Data3: 979008169
+    Data4: -2116073813
+  Banks:
+  - {fileID: -6536670386911585335}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-8355748478686338357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24,6 +75,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-8098592881407912734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Battle Music/Fart Layer Volume
+  m_EditorClassIdentifier: 
+  Name: Fart Layer Volume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 656163115
+    data2: 753020599
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-8066932789410807381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,7 +118,7 @@ MonoBehaviour:
     Data3: 1965505409
     Data4: -1129608215
   Banks:
-  - {fileID: 8486245512599436293}
+  - {fileID: -6536670386911585335}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -52,6 +127,392 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5000
+--- !u!114 &-7976421405734108890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ass Pop
+  m_EditorClassIdentifier: 
+  Path: event:/Ass Pop
+  Guid:
+    Data1: -890036766
+    Data2: 1074537254
+    Data3: 826574469
+    Data4: 18427575
+  Banks:
+  - {fileID: -6536670386911585335}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7924531262541516125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Win Stinger
+  m_EditorClassIdentifier: 
+  Path: event:/Win Stinger
+  Guid:
+    Data1: 475052085
+    Data2: 1161059571
+    Data3: 485093808
+    Data4: -1122345617
+  Banks:
+  - {fileID: 5648621720397445584}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3259888014874971664}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4218
+--- !u!114 &-6730469836199613748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lose Stinger
+  m_EditorClassIdentifier: 
+  Path: event:/Lose Stinger
+  Guid:
+    Data1: -1498094451
+    Data2: 1328631665
+    Data3: -1073523549
+    Data4: -1459670517
+  Banks:
+  - {fileID: -6536670386911585335}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5625
+--- !u!114 &-6618228367261221810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fart Layer Volume
+  m_EditorClassIdentifier: 
+  Name: Fart Layer Volume
+  StudioPath: parameter:/Fart Layer Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 656163115
+    data2: 753020599
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6536670386911585335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/aster.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/Master.bank
+  Name: aster
+  StudioPath: bank:/Master
+  lastModified: 638832010470982860
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-5934171771120175479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/aster.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/Master.strings.bank
+  Name: aster.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638832010471302007
+  FileSizes:
+  - Name: 
+    Value: 1946
+  Exists: 1
+--- !u!114 &-5467222176789211149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ass Hit
+  m_EditorClassIdentifier: 
+  Path: event:/Ass Hit
+  Guid:
+    Data1: -1172839116
+    Data2: 1210997806
+    Data3: -52794182
+    Data4: 1060793073
+  Banks:
+  - {fileID: 5648621720397445584}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4402221137645557089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Title Screen Music/Title Fade
+  m_EditorClassIdentifier: 
+  Name: Title Fade
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 1802951774
+    data2: 4245462204
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-4273123076795922701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fart Layer Volume
+  m_EditorClassIdentifier: 
+  Name: Fart Layer Volume
+  StudioPath: parameter:/Fart Layer Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 656163115
+    data2: 753020599
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3938475882140778701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Battle Win verb
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Battle Win verb
+  Guid:
+    Data1: -1554779071
+    Data2: 1144048739
+    Data3: -1795390580
+    Data4: -832596553
+  Banks:
+  - {fileID: 5648621720397445584}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-3136573903820762208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Title Verb
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Title Verb
+  Guid:
+    Data1: -2004369930
+    Data2: 1176052466
+    Data3: -1537944174
+    Data4: -1408131579
+  Banks:
+  - {fileID: -6536670386911585335}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-2039692656563051559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Battle Lose verb
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Battle Lose verb
+  Guid:
+    Data1: 1243488256
+    Data2: 1233700051
+    Data3: 979008169
+    Data4: -2116073813
+  Banks:
+  - {fileID: 5648621720397445584}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-889027394460458765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Battle Music
+  m_EditorClassIdentifier: 
+  Path: event:/Battle Music
+  Guid:
+    Data1: 657386858
+    Data2: 1236977408
+    Data3: -176877659
+    Data4: 1488796112
+  Banks:
+  - {fileID: 5648621720397445584}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8903136929239018999}
+  - {fileID: 3725329597184094251}
+  - {fileID: 2909762173058852284}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 52500
+--- !u!114 &-848970391473686860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Title Screen Music
+  m_EditorClassIdentifier: 
+  Path: event:/Title Screen Music
+  Guid:
+    Data1: 946507058
+    Data2: 1311403446
+    Data3: 2085752248
+    Data4: -1511318603
+  Banks:
+  - {fileID: -6536670386911585335}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4402221137645557089}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70985
+--- !u!114 &-604052442246551300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Title Screen Music
+  m_EditorClassIdentifier: 
+  Path: event:/Title Screen Music
+  Guid:
+    Data1: 946507058
+    Data2: 1311403446
+    Data3: 2085752248
+    Data4: -1511318603
+  Banks:
+  - {fileID: 5648621720397445584}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2413318849262553904}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70985
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,19 +526,29 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 4636403999441005313}
-  - {fileID: 8486245512599436293}
+  - {fileID: 4378173754669136819}
+  - {fileID: 5648621720397445584}
   EditorEvents:
-  - {fileID: -8066932789410807381}
-  - {fileID: 174735225501797455}
-  EditorParameters: []
+  - {fileID: -2039692656563051559}
+  - {fileID: 8172932035792024788}
+  - {fileID: -604052442246551300}
+  - {fileID: -5467222176789211149}
+  - {fileID: -7924531262541516125}
+  - {fileID: -3938475882140778701}
+  - {fileID: -889027394460458765}
+  - {fileID: 7019853413431397673}
+  - {fileID: 7474170996926813473}
+  - {fileID: 7528027822134952853}
+  - {fileID: 4029459542020316246}
+  EditorParameters:
+  - {fileID: -6618228367261221810}
   MasterBanks:
-  - {fileID: 8486245512599436293}
+  - {fileID: 5648621720397445584}
   StringsBanks:
-  - {fileID: 4636403999441005313}
-  cacheTime: 638831949824742477
+  - {fileID: 4378173754669136819}
+  cacheTime: 638832016882951493
   cacheVersion: 131624
---- !u!114 &174735225501797455
+--- !u!114 &219457344593857066
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,24 +558,249 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music
+  m_Name: snapshot:/Battle Win verb
   m_EditorClassIdentifier: 
-  Path: event:/Music
+  Path: snapshot:/Battle Win verb
+  Guid:
+    Data1: -1554779071
+    Data2: 1144048739
+    Data3: -1795390580
+    Data4: -832596553
+  Banks:
+  - {fileID: -6536670386911585335}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &2413318849262553904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Title Screen Music/Title Fade
+  m_EditorClassIdentifier: 
+  Name: Title Fade
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 1802951774
+    data2: 4245462204
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2548140659104063407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Hoverboard/Moving
+  m_EditorClassIdentifier: 
+  Name: Moving
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 611388423
+    data2: 174508924
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2638591704588867676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Battle Music
+  m_EditorClassIdentifier: 
+  Path: event:/Battle Music
   Guid:
     Data1: 657386858
     Data2: 1236977408
     Data3: -176877659
     Data4: 1488796112
   Banks:
-  - {fileID: 8486245512599436293}
+  - {fileID: -6536670386911585335}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 1
-  Parameters: []
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2864117690590786007}
+  - {fileID: -8098592881407912734}
+  - {fileID: 3939006406571527342}
   MinDistance: 1
   MaxDistance: 20
-  Length: 70985
---- !u!114 &4636403999441005313
+  Length: 52500
+--- !u!114 &2864117690590786007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Battle Music/Death
+  m_EditorClassIdentifier: 
+  Name: Death
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1071065621
+    data2: 2659812181
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2909762173058852284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Battle Music/Battle Fade
+  m_EditorClassIdentifier: 
+  Name: Battle Fade
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 1289633418
+    data2: 243734819
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &3259888014874971664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Win Stinger/Fart Layer Volume
+  m_EditorClassIdentifier: 
+  Name: Fart Layer Volume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 656163115
+    data2: 753020599
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3725329597184094251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Battle Music/Fart Layer Volume
+  m_EditorClassIdentifier: 
+  Name: Fart Layer Volume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 656163115
+    data2: 753020599
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3939006406571527342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Battle Music/Battle Fade
+  m_EditorClassIdentifier: 
+  Name: Battle Fade
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 1289633418
+    data2: 243734819
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &4029459542020316246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Title Verb
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Title Verb
+  Guid:
+    Data1: -2004369930
+    Data2: 1176052466
+    Data3: -1537944174
+    Data4: -1408131579
+  Banks:
+  - {fileID: 5648621720397445584}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &4378173754669136819
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,15 +812,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: Assets/StreamingAssets/Master.strings.bank
+  Path: Assets/StreamingAssets/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638831949824742477
+  lastModified: 638832016882951493
   FileSizes:
   - Name: 
-    Value: 856
+    Value: 1946
   Exists: 1
---- !u!114 &8486245512599436293
+--- !u!114 &5478530279115994077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Win Stinger
+  m_EditorClassIdentifier: 
+  Path: event:/Win Stinger
+  Guid:
+    Data1: 475052085
+    Data2: 1161059571
+    Data3: 485093808
+    Data4: -1122345617
+  Banks:
+  - {fileID: -6536670386911585335}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 9043041930987286934}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4218
+--- !u!114 &5484139371578316193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ass Hit
+  m_EditorClassIdentifier: 
+  Path: event:/Ass Hit
+  Guid:
+    Data1: -1172839116
+    Data2: 1210997806
+    Data3: -52794182
+    Data4: 1060793073
+  Banks:
+  - {fileID: -6536670386911585335}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5648621720397445584
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,11 +885,171 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/StreamingAssets/Master.bank
+  m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: Assets/StreamingAssets/Master.bank
-  Name: StreamingAssets/Master
+  Path: Assets/StreamingAssets/Desktop/Master.bank
+  Name: Master
   StudioPath: bank:/Master
-  lastModified: 638831949824686767
+  lastModified: 638832016882931988
   FileSizes: []
+  Exists: 1
+--- !u!114 &7019853413431397673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lose Stinger
+  m_EditorClassIdentifier: 
+  Path: event:/Lose Stinger
+  Guid:
+    Data1: -1498094451
+    Data2: 1328631665
+    Data3: -1073523549
+    Data4: -1459670517
+  Banks:
+  - {fileID: 5648621720397445584}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5625
+--- !u!114 &7474170996926813473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ass Pop
+  m_EditorClassIdentifier: 
+  Path: event:/Ass Pop
+  Guid:
+    Data1: -890036766
+    Data2: 1074537254
+    Data3: 826574469
+    Data4: 18427575
+  Banks:
+  - {fileID: 5648621720397445584}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7528027822134952853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hoverboard
+  m_EditorClassIdentifier: 
+  Path: event:/Hoverboard
+  Guid:
+    Data1: -2035336204
+    Data2: 1214029923
+    Data3: 1965505409
+    Data4: -1129608215
+  Banks:
+  - {fileID: 5648621720397445584}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2548140659104063407}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
+--- !u!114 &8172932035792024788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue Music
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue Music
+  Guid:
+    Data1: -1452039892
+    Data2: 1315852000
+    Data3: 759337098
+    Data4: -793112304
+  Banks:
+  - {fileID: 5648621720397445584}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 65524
+--- !u!114 &8352028792806156014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue Music
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue Music
+  Guid:
+    Data1: -1452039892
+    Data2: 1315852000
+    Data3: 759337098
+    Data4: -793112304
+  Banks:
+  - {fileID: -6536670386911585335}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 65524
+--- !u!114 &9043041930987286934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Win Stinger/Fart Layer Volume
+  m_EditorClassIdentifier: 
+  Name: Fart Layer Volume
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 656163115
+    data2: 753020599
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1

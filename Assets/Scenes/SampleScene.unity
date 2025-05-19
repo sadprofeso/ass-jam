@@ -513,7 +513,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 752775658}
-  - component: {fileID: 752775657}
   - component: {fileID: 752775656}
   m_Layer: 0
   m_Name: AudioManager
@@ -537,11 +536,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 657386858
-      Data2: 1236977408
-      Data3: -176877659
-      Data4: 1488796112
-    Path: event:/Music
+      Data1: 946507058
+      Data2: 1311403446
+      Data3: 2085752248
+      Data4: -1511318603
+    Path: event:/Title Screen Music
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -553,24 +552,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
---- !u!114 &752775657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 752775655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LoadEvent: 0
-  UnloadEvent: 0
-  Banks:
-  - Desktop/Master
-  CollisionTag: 
-  PreloadSamples: 0
 --- !u!4 &752775658
 Transform:
   m_ObjectHideFlags: 0
