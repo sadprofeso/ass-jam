@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8601846253400637986}
   - component: {fileID: 2394121983655006129}
-  - component: {fileID: 8669129588194921236}
   - component: {fileID: 2049234459741834138}
+  - component: {fileID: 8059083825350692749}
   m_Layer: 0
   m_Name: AssCamera
   m_TagString: Untagged
@@ -85,14 +85,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &8669129588194921236
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174841039518089203}
-  m_Enabled: 1
 --- !u!114 &2049234459741834138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,6 +129,20 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &8059083825350692749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174841039518089203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1001 &8922266987511192584
 PrefabInstance:
   m_ObjectHideFlags: 0
