@@ -1,4 +1,5 @@
 using UnityEngine;
+using FMODUnity;
 
 // @author Jake DeRoma, Discord: jaker333
 public class DialogueController : MonoBehaviour
@@ -8,6 +9,8 @@ public class DialogueController : MonoBehaviour
 
     private DialogueData currentDialogueData;
     private int currentLinesIndex = -1;
+
+    [SerializeField] public GameObject trigger;
 
     void Awake()
     {
@@ -35,6 +38,7 @@ public class DialogueController : MonoBehaviour
         currentDialogueData = dialogueData;
         currentLinesIndex = 0;
         DialogueUIHandler.instance.DisplayLine(dialogueData.lines[currentLinesIndex]); // always index 0 at start
+        FMODUnity.RuntimeManager.PlayOneShot(trigger.GetComponent<DialogueTrigger>().eventName); 
     }
 
     public void AdvanceCurrentDialogue()
@@ -55,6 +59,8 @@ public class DialogueController : MonoBehaviour
         {
             EndDialogue();
         }
+
+        FMODUnity.RuntimeManager.PlayOneShot(trigger.GetComponent<DialogueTrigger>().eventName);
     }
 
     public void EndDialogue()

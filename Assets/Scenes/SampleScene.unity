@@ -225,6 +225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: db0c65e9a850bf2498df7870be821fbc, type: 2}
   TEST_DIALOGUE_TRIGGER: 0
+  eventName: event:/First Loss
 --- !u!4 &312847293
 Transform:
   m_ObjectHideFlags: 0
@@ -429,6 +430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: 4b48742700d02e04983d8b9f8cf896f3, type: 2}
   TEST_DIALOGUE_TRIGGER: 0
+  eventName: 
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,11 +585,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 657386858
-      Data2: 1236977408
-      Data3: -176877659
-      Data4: 1488796112
-    Path: event:/Music
+      Data1: -1452039892
+      Data2: 1315852000
+      Data3: 759337098
+      Data4: -793112304
+    Path: event:/Dialogue Music
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -834,6 +836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: a9b5144744880004da43a334cbf082c6, type: 2}
   TEST_DIALOGUE_TRIGGER: 0
+  eventName: event:/Third Win Good Ending
 --- !u!4 &1000640931
 Transform:
   m_ObjectHideFlags: 0
@@ -1185,6 +1188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: a1f4a92fc11ed464b866339c0c3a2807, type: 2}
   TEST_DIALOGUE_TRIGGER: 0
+  eventName: event:/Third Loss Bad Ending
 --- !u!4 &1305414384
 Transform:
   m_ObjectHideFlags: 0
@@ -1231,6 +1235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: 51ab3dec2cc4bf045b300f110aef4732, type: 2}
   TEST_DIALOGUE_TRIGGER: 0
+  eventName: event:/Second Loss
 --- !u!4 &1506478392
 Transform:
   m_ObjectHideFlags: 0
@@ -1497,6 +1502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlaying: 0
+  trigger: {fileID: 1647950482}
 --- !u!4 &1618770066
 Transform:
   m_ObjectHideFlags: 0
@@ -1543,6 +1549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: a053ea18808ba7e43b953dab6405cdaf, type: 2}
   TEST_DIALOGUE_TRIGGER: 0
+  eventName: event:/Before Round 1
 --- !u!4 &1647950484
 Transform:
   m_ObjectHideFlags: 0
@@ -1668,6 +1675,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: 1e754653a7045ef499e6a0b55f6b63d8, type: 2}
   TEST_DIALOGUE_TRIGGER: 0
+  eventName: event:/Second Win
 --- !u!4 &1957801317
 Transform:
   m_ObjectHideFlags: 0
@@ -1807,6 +1815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueData: {fileID: 11400000, guid: d215349ae4b300d48bbc7bea79a1716a, type: 2}
   TEST_DIALOGUE_TRIGGER: 0
+  eventName: event:/First Win
 --- !u!4 &2096885834
 Transform:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ public class DialogueTrigger : MonoBehaviour
 {
     [SerializeField] private DialogueData dialogueData;
     [SerializeField] private bool TEST_DIALOGUE_TRIGGER = false;
+    [SerializeField] public string eventName;
 
     void Update()
     {
