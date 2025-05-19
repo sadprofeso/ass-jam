@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f3ef82d5863b94e9273c0571d0659b, type: 3}
+  m_Name: Scene2
+  m_EditorClassIdentifier: 
+  dialogueID: Scene2_BeforeRound1
+  lines:
+  - speakerName: Lady Buttrice
+    portrait: {fileID: 21300000, guid: 18c2569b4bb9871438bef78db894860b, type: 3}
+    voice: {fileID: 0}
+    text: Hark! Strike true, Arsebald!
+    nextLineIndex: 0
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 45bd5df65ea80f7448d944dead6393ab, type: 3}
+    voice: {fileID: 0}
+    text: Hahaha, whatever arena I fight in, the fairest maidens always trail me.
+    nextLineIndex: 1
+  - speakerName: Lady Buttrice
+    portrait: {fileID: 21300000, guid: 18c2569b4bb9871438bef78db894860b, type: 3}
+    voice: {fileID: 0}
+    text: My heart threatens to escape my chest!
+    nextLineIndex: 2
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: "This isn\u2019t about the wenches, Arsebald. I stand before you to avenge
+      my father. This is about us. "
+    nextLineIndex: 3
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 45bd5df65ea80f7448d944dead6393ab, type: 3}
+    voice: {fileID: 0}
+    text: "Your father? An unremarkable fellow I\u2019m sure; am I expected to know
+      of whom you speak?"
+    nextLineIndex: 4
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: You know of your own wretchedness. I, Theseass, son of Aegeass, will not
+      let you dishonor my family any longer.
+    nextLineIndex: 5
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 45bd5df65ea80f7448d944dead6393ab, type: 3}
+    voice: {fileID: 0}
+    text: "Aegeass, huh\u2026. Ah, I recall now! A gentleman with an ass fit for
+      a beggar\u2026So minuscule it would scarcely feed a mouse. \u2018Twas only
+      a jest, yet he cried out and keeled over. Is this the Aegeass you speak of?\r"
+    nextLineIndex: 6
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: Enough! We shall settle this in the arena. Man to man, ass to ass.
+    nextLineIndex: 7
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: 9cd3f6e9c3d011a4c8e3f7958ac8347c, type: 3}
+    voice: {fileID: 0}
+    text: Kiss mine ass!
+    nextLineIndex: 7

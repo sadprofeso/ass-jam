@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f3ef82d5863b94e9273c0571d0659b, type: 3}
+  m_Name: Scene7
+  m_EditorClassIdentifier: 
+  dialogueID: Scene7_FirstLoss
+  lines:
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 45bd5df65ea80f7448d944dead6393ab, type: 3}
+    voice: {fileID: 0}
+    text: HAH! Just like your father before you, you stand no chance bouncing ass
+      against me!
+    nextLineIndex: 0
+  - speakerName: Lady Buttrice
+    portrait: {fileID: 21300000, guid: 18c2569b4bb9871438bef78db894860b, type: 3}
+    voice: {fileID: 0}
+    text: Here, here!
+    nextLineIndex: 1
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: de8c789a29046a04faaf5be1887685be, type: 3}
+    voice: {fileID: 0}
+    text: "You celebrate terribly early, Arsebald. You may have bested me this time,
+      but there remains plenty of mine ass\u2026 and yours, to clap."
+    nextLineIndex: 2
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 45bd5df65ea80f7448d944dead6393ab, type: 3}
+    voice: {fileID: 0}
+    text: " I celebrated my victory before this match even started! You\u2019re nothing
+      more than an annoyance, a fly buzzing near the ass of a noble steed.\r"
+    nextLineIndex: 3
+  - speakerName: Theseass
+    portrait: {fileID: 21300000, guid: de8c789a29046a04faaf5be1887685be, type: 3}
+    voice: {fileID: 0}
+    text: " Then you shall celebrate once again in your grave. You\u2019re nothing
+      more than an annoyance, a fly buzzing near the ass of a noble steed.\r"
+    nextLineIndex: 4
+  - speakerName: Arsebald
+    portrait: {fileID: 21300000, guid: 45bd5df65ea80f7448d944dead6393ab, type: 3}
+    voice: {fileID: 0}
+    text: " We\u2019ll see about that!\r"
+    nextLineIndex: -1
